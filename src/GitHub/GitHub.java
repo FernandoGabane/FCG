@@ -14,6 +14,8 @@ public class GitHub {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.get("https://github.com");
+		
+		System.out.println("https://github.com");
 	
 		Thread.sleep(2000);
 	
