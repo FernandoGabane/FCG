@@ -2,9 +2,6 @@ language: java
 os: windowsxp
 jdk: oraclejdk8
 
-  matrix:
-  - SELENIUM_PLATFORM=WINDOWS SELENIUM_BROWSER=IE SELENIUM_VERSION=9
-
 addons:
   firefox: "39.0"
     apt:
